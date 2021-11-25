@@ -1,5 +1,4 @@
-import FeedbackInfo from './FeedbackInfo';
-import FeedbackSection from './FeedbackSection';
+import FeedbackSection from '../../section/FeedbackSection';
 import MainHeader from './MainHeader';
 
 export default function Main () {
@@ -9,7 +8,6 @@ export default function Main () {
       <FeedbackSection />
       <FeedbackSection />
       <FeedbackSection />
-      <FeedbackInfo />
     </main>
-  )
+  );
 }
