@@ -1,20 +1,21 @@
-export default function FeedbackSection () {
+export default function FeedbackSection ({ feedback }) {
+  const { votes, title, description, tag, comments } = feedback;
   return (
     <section className="main-section section-feedbacks">
       <div className="main-section-votes">
         <button type="button" className="btn btn-votes">
           <i className="fas fa-chevron-up"></i>
-          <p>112</p>
+          <p>{votes}</p>
         </button>
       </div>
       <div className="main-section-description">
-        <h4>Add tags for solutions</h4>
-        <p>Easier to search for solutions based on a specific stack</p>
-        <button type="button" className="btn btn-tag">Enhancement</button>
+        <h4>{title}</h4>
+        <p>{description}</p>
+        <button type="button" className="btn btn-tag">{tag}</button>
       </div>
       <div className="main-section-comments">
         <i className="fas fa-comment"></i>
-        <span>2</span>
+        <span>{comments}</span>
       </div>
     </section>
   )

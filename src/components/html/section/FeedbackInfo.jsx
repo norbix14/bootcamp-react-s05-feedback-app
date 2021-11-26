@@ -17,7 +17,7 @@ export default function FeedbackInfo () {
           </div>
         </div>
       </section>
-      <FeedbackSection />
+      <FeedbackSection feedback={{}} />
       <CommentsSection />
       <CommentWriter />
     </>
