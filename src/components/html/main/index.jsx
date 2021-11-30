@@ -1,3 +1,3 @@
-import Main from './presentational/Main';
+import Main from './Main';
 
 export default Main;

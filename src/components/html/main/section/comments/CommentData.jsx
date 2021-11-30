@@ -1,5 +1,10 @@
 export default function CommentData ({ comment }) {
   const { user, nickname, comment:comm } = comment;
+
+  const handleClickReply = () => {
+    console.log('reply comment');
+  };
+
   return (
     <div className="comment-data">
       <div className="comment-profile-img">
@@ -13,7 +18,7 @@ export default function CommentData ({ comment }) {
         <p>{comm}</p>
       </div>
       <div className="comment-reply">
-        <button className="btn btn-reply">Reply</button>
+        <button className="btn btn-reply" onClick={handleClickReply}>Reply</button>
       </div>
     </div>
   );

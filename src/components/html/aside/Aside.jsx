@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Aside () {
   return (
     <aside className="aside">
@@ -16,7 +18,7 @@ export default function Aside () {
       <section className="aside-section aside-roadmap">
         <div className="roadmap-header">
           <h3>Roadmap</h3>
-          <a href="/view">View</a>
+          <Link to="/view">View</Link>
         </div>
         <div className="roadmap-body">
           <div className="roadmap-body-item">

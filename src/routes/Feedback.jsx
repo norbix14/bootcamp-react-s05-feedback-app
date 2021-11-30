@@ -1,4 +1,4 @@
-import FeedbackInfo from '../components/html/section/FeedbackInfo';
+import FeedbackInfo from "../components/html/main/section/feedbacks/FeedbackInfo";
 
 export default function Feedback () {
   return (

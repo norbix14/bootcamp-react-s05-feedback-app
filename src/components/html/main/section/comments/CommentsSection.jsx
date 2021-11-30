@@ -1,9 +1,10 @@
 import CommentData from './CommentData';
 
-import { comments } from '../../../mocks/faker';
+import { comments } from '../../mocks/faker';
 
 export default function CommentsSection () {
   const commentaries = comments();
+
   return (
     <section className="comments-section">
       <h3>2 comments</h3>
