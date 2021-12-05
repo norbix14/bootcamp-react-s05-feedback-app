@@ -4,6 +4,8 @@
 
 ## Basado en [Feedback App Clone](https://hopeful-murdock-83580e.netlify.app/ "Clone by Tamir Assayag.")
 
+## [**Básicos de Docker** y como dockerizar esta app](DOCKER.md "Básicos de Docker") 
+
 ## Screenshots
 
 ![Home Desktop](screenshots/home-desktop.png "Home Desktop")
